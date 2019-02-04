@@ -10,7 +10,7 @@ code_indent = 4
 
 for file in os.listdir(os.getcwd()):
 	if file.endswith(".ipynb"):
-		print(os.path.join("/.", file))
+		print(file)
 
 		## Create new file
 		dev_file = open(file, "r")
